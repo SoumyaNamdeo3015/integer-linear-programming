@@ -42,4 +42,6 @@ parameter and print the following information in the given order on command line
 solution. 
 + Optimal Value (optimal_value): The value of the objective function at the optimal solution.
 
-
+### Packages used : 
++ copy
++ Fractions 
