@@ -26,9 +26,9 @@ corresponding to a constraint in the [A] section.
 constraints.  
 + The [c] section contains the coefficients of the objective function's variables in one row.
 
-note:the input file name must be input_ilp.txt
+note: the input file name must be input_ilp.txt
 
-note:matrices A,b,c have integral entries
+note: matrices A,b,c have integral entries
 
 
 ## About main.py :
