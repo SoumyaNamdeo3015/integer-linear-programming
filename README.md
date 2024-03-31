@@ -27,8 +27,19 @@ constraints.
 + The [c] section contains the coefficients of the objective function's variables in one row.
 
 note:the input file name must be input_ilp.txt
+
 note:matrices A,b,c have integral entries
 
 
 ## About main.py :
+
+main.py contains a function named “gomory_cut_algo” which reads “input_ilp.txt” and does not take any argument as 
+parameter and print the following information in the given order on command line: 
++ Initial Solution (initial_solution): The initial feasible solution obtained by the simplex method. 
++ Final Solution (final_solution): The optimal integer solution after applying Gomory cuts. 
++ Solution Status (solution_status): “optimal”, “infeasible”, or “unbounded”. 
++ Number of Cuts (number_of_cuts): The total number of Gomory cuts applied to reach the final 
+solution. 
++ Optimal Value (optimal_value): The value of the objective function at the optimal solution.
+
 
